@@ -18,7 +18,9 @@ Node JS :
 
 2) watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
 
+3) To read - https://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags
 
+Done.
 
 4)
 
