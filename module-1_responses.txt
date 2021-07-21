@@ -1,0 +1,42 @@
+1) List 5 difference between Browser JS(console) v Nodejs
+
+Browser JS :
+
+>> Javascript is a programming language that is used for writing scripts on the website.
+>> Javascript can only be run in the browsers.
+>> It is basically used on the client-side.
+>> Javascript is capable enough to add HTML and play with the DOM.
+>> Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox.
+
+Node JS :
+
+>> NodeJS is a Javascript runtime environment.
+>> NodeJS code can be run outside the browser.
+>> It is mostly used on the server-side.
+>> Nodejs does not have capability to add HTML tags.
+>> Nodejs can only run in V8 engine of google chrome.
+
+2) watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
+
+
+
+4)
+
+typeof(1)
+"number"
+typeof(1.1)
+"number"
+typeof('1.1')
+"string"
+ typeof(true)
+"boolean"
+typeof(null)
+"object"
+typeof(undefined)
+"undefined"
+typeof([])
+"object"
+typeof({})
+"object"
+typeof(NaN)
+"number"
