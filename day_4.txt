@@ -1,0 +1,14 @@
+1) create your own resume data in JSON format
+
+var resume = [{Name_birthDate : "Anwesh - 18th April, 1994"},
+              {Contact : {Mobile : "+91 9100466709 / +91 6302528053", Email : "margam.anwesh1804@gmail.com", LinkedIn_Profile: "linkedin.com/in/margam-anwesh-9a90a7192"}},
+              {Title : "Network engineer with career spanning over 4 and a half years in Routing, Switching and Azure network administration."},
+              {CAREER_OBJECTIVE : "An enthusiastic Azure engineer with the necessary drive and determination needed to resolve complex issues in the Azure environment of the clients. Possessing effective organizational skills and excellent working knowledge of networking technologies and having a commitment to keep up to date with the latest developments. Experienced in providing motivation, guidance and up to date networking consultancy service to both colleagues and clients."},
+              {PROFILE_SUMMARY : {1 : "Experienced as an Azure networking support engineer for the IaaS products under Azure networking blade, worked in break fix environment by resolving the customer issues on the basis of Microsoft support severity and SLA.",
+                                  2 : "Experienced in Networking as a Network Engineer in Installation, Implementation, Configuration, Troubleshooting Monitoring and Maintaining of LAN/WAN and MPLS network infrastructures using Routers and Switches."}}]
+
+console.log(resume);
+
+2) how to compare two JSON have the same properties without order?
+        var obj1 = { name: "Person 1", age:5 };
+        var obj2 = { age:5, name: "Person 1" };
