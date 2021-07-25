@@ -1,0 +1,52 @@
+1) Do the below programs in anonymous function & IIFE :
+
+Print odd numbers in an array 
+
+var oddNum = function(a)
+{   for(let i = 0; i < a.length; i++)
+    {   if(a[i] % 2 != 0)
+            console.log(a[i]);
+    }
+};
+
+let x = [11, 12, 14, 17, 27, 29, 31];
+
+oddNum(x);
+
+================================================================
+
+let x = [11, 12, 14, 17, 27, 29, 31];
+
+(function (a)
+{   for(let i = 0; i < a.length; i++)
+         {   if(a[i] % 2 != 0)
+                 console.log(a[i]);
+         }
+})(x);
+
+Convert all the strings to title caps in a string array
+
+var titleCaps = function(a)
+{ 
+    for(let i = 0; i < a.length; i++)
+    {   a[i] = a[i].charAt(0).toUpperCase() + a[i].slice(1);
+    }
+
+    console.log(a);
+};
+
+let x = ["krishna", "suresh", "ramesh", "arjun", "chris"];
+
+titleCaps(x);
+
+====================================================================
+
+let x = ["krishna", "suresh", "ramesh", "arjun", "chris"];
+
+(function (a)
+{       for(let i = 0; i < a.length; i++)
+    {   a[i] = a[i].charAt(0).toUpperCase() + a[i].slice(1);
+    }
+    console.log(a);
+})(x);
+
