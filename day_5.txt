@@ -1,6 +1,6 @@
 1) Do the below programs in anonymous function & IIFE :
 
-Print odd numbers in an array 
+Print odd numbers in an array :-
 
 var oddNum = function(a)
 {   for(let i = 0; i < a.length; i++)
@@ -24,7 +24,7 @@ let x = [11, 12, 14, 17, 27, 29, 31];
          }
 })(x);
 
-Convert all the strings to title caps in a string array
+Convert all the strings to title caps in a string array :-
 
 var titleCaps = function(a)
 { 
@@ -49,4 +49,35 @@ let x = ["krishna", "suresh", "ramesh", "arjun", "chris"];
     }
     console.log(a);
 })(x);
+
+Sum of all numbers in an array :-
+
+var sumOfElements = function(a)
+{   let sum = 0;
+    
+    for(let i = 0; i < a.length; i++)
+        sum = +sum + +a[i];
+
+    console.log(sum);
+};
+
+let x = [21, 34, 43, 45, 65, 23, 11, 24]
+
+sumOfElements(x);
+
+================================================================
+
+let x = [21, 34, 43, 45, 65, 23, 11, 24];
+
+(function (a)
+{   let sum = 0;
+    
+    for(let i = 0; i < a.length; i++)
+        sum = +sum + +a[i];
+
+console.log(sum);
+
+})(x);
+
+Return all the prime numbers in an array :-
 
