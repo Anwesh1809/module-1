@@ -118,3 +118,4 @@ let isPrime = (function (arr)
 })(a);
 
 console.log(isPrime);
+
