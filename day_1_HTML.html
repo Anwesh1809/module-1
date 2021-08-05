@@ -73,4 +73,103 @@ Solution :
 
 </html>
 
-3. 
+3. Design a contact us form with all fields as required.
+            
+//HTML
+            
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/HTML/CSS/da_1_task.css">
+</head>
+<body>
+    <div id="contact">
+        <h1>Contact us</h1>
+        <form action="" method="GET">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name" placeholder="Please enter your name"> <br><br>
+            <label for="Email">Email : </label>
+            <input type="email" name="email" id="email"  placeholder="Please enter your email"> <br><br>
+            <label for="Mobile">Mobile : </label>
+            <input type="text" name="Mobile" id="Mobile" placeholder="Please enter your mobile"> <br><br>
+            <label for="desc">Query : </label> <br><br>
+            <textarea name="" id="" cols="20" rows="10"></textarea> <br><br>
+            <!-- <input type="submit"> -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+            
+//CSS
+            
+#contact {
+  text-align: center;
+  border: 5px solid black;
+  border-width: medium;
+}
+
+4. Use certain HTML elements to display the following in a HTML page.
+            
+<!--HTML-->
+            
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming_language</title>
+    <link rel="stylesheet" href="/HTML/CSS/da_1_task.css">
+</head>
+<body>
+    <ul>
+        <li>
+            <h3>Programming Language</h3>
+            <ul>
+                <li>Javascript
+                    <ul id="prog_lang">
+                        <li>a. Angular</li>
+                        <li>b. React</li>
+                        <li>c. Vue.js</li>
+                    </ul>
+                </li>
+                <li>Python
+                    <ul id="prog_lang">
+                        <li>a. Django Framework</li>
+                        <li>b. Flask Framework</li>
+                    </ul>
+                </li>
+                <li>Java
+                    <ul id="prog_lang">
+                        <li>a. Spring</li>
+                        <li>b. Maven</li>
+                        <li>c. Hibernate</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <h3>Database</h3>
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Cassandra</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
+            
+<!--CSS-->
+            
+#prog_lang {
+  list-style-type: none;
+}
+            
+
