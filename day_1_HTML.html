@@ -199,7 +199,7 @@ Solution :
 </body>
 </html>
 
-<!--In the form, add two radio buttons with grouping them for employee type(Salaried and own business)-->
+<!--6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business)-->
             
 <!DOCTYPE html>
 <html lang="en">
@@ -231,4 +231,249 @@ Solution :
 </body>
 </html>
             
+<!--Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)-->
+            
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            /* align-content: center; */
+            /* align-items: center; */
+            /* border: 3px solid black; */
+            padding-top: 100px;
+        }
+
+        #a2 {
+            margin-left: 335px;
+            background-color: red;
+            color: white;
+            display: inline-block;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #i1 {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid black;
+            margin-left: 370px;
+            margin-top: 10px;
+        }
+
+        #i2 {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid black;
+            margin-left: 200px;
+            margin-top: 10px;
+        }
+
+        #i3 {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid black;
+            margin-left: 370px;
+            padding-right: 350px;
+        }
+
+        #p1 {
+            margin-left: 372px;
+            margin-top: -18px;
+        }
+
+        #p2 {
+            margin-left: 721px;
+            margin-top: -34px;
+        }
+
+        #p3 {
+            margin-left: 370px;
+            margin-top: -0px;
+        }
+
+        #i4 {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid black;
+            margin-left: 370px;
+            margin-top: 10px;
+        }
+
+        #i5 {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid black;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+
+        #l1 {
+            margin-left: 370px;
+        }
+
+        #l2 {
+            margin-left: 143px;
+        }
+
+        #l3 {
+            margin-left: 370px;
+        }
+
+        #r1 {
+            display: inline-block;
+        }
+
+        #ul1 {
+            list-style-type: none;
+            margin-left: 325px;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="a1">
+        <div id="a2">
+            <h1>Yes! I want to subscribe to <i>Mag-O-Zine</i></h1>
+        </div>
+        <span>
+            <input type="text" name="" id="i1">
+            <input type="text" name="" id="i2">
+        </span>
+        <div>
+            <br><p id="p1">First Name</p>
+                <p id="p2">Last Name</p>
+        </div>
+        <div>
+            <input type="text" name="" id="i3">
+            <br><p id="p3">Address</p>
+        </div>
+        <div>
+            <span>
+                <input type="text" name="" id="i4">
+                <input type="text" name="" id="i5">
+                <input type="text" name="" id="i5">
+            </span>
+        </div>
+        <div>
+            <span>
+                <label id="l1">City</label>
+                <label id="l2">State</label>
+                <label id="l2">Zip</label>
+            </span>
+        </div>
+        <div>
+            <span>
+                <h3>
+                    <label for="" id="l3">Subscribe for:</label>
+                    <input type="radio" class="radio" value="1" name="Sub" id="r1">1 year ($19.95)
+                    <input type="radio" class="radio" value="1" name="Sub" id="r1">2 years ($35.00)
+                </h3>
+            </span>
+        </div>
+        <div>
+            <h3>
+                <label for="" id="l3">Send me the information about:</label>
+            </h3>
+            <ul id="ul1">
+                <li><input type="checkbox" name="op" id="">Computer-Zine</li>
+                <li><input type="checkbox" name="op" id="">Fishing-Zine</li>
+                <li><input type="checkbox" name="op" id="">Cat-O-Zine</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--8. Use the table tag to design given image Click here.-->
+            
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+        }
+
+        p {
+            width: 200px;
+            margin: auto;
+            font-size: 20px;
+            padding: 150px;
+        }
+
+        table, tr, td {
+            width: 850px;
+            margin-top: -140px;
+            margin-left: 200px;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <p>Health Chart</p>
+    <table>
+        <tr>
+            <td rowspan="2">State of Health</td>
+            <td colspan="2">Fasting Value</td>
+            <td>After Eating</td>
+        </tr>
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours of eating</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 t0 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+</body>
+</html>
+            
+<!--In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome"-->
+            
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>"HTML & CSS is awesome"</li>
+    </ul>
+</body>
+</html>
             
